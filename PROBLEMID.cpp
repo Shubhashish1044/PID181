@@ -1,0 +1,98 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+	int s;
+    printf("	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
+    printf("	||                                                                                                        ||\n");
+    printf("	||                                     Name: SHUBHASHISH DAS                                              ||\n");
+    printf("	||                                     Branch: Cyber Security                                             ||\n");
+    printf("	||                                     EN. No.: CS33                                                      ||\n");
+    printf("	||                                                                                                        ||\n");
+    printf("	||                                                                                                        ||\n");
+    printf("	||                                                                                                        ||\n");
+    printf("	||                                           PID:181                                                      ||\n");
+	printf("	========================= {{{{{ DETECTION OF ROUGE DRONE ON BORDERS }}}}} ==================================\n");
+	
+	printf("\n\n		     <<<<<<<<<<<<<<<<<<<< SELECT ANY STATE FOR INFORMATION >>>>>>>>>>>>>>>>>>>> \n\n");
+	printf("1. Jammu & Kashmir");
+	printf("\n2. Gujarat");
+	printf("\n3. Rajasthan");
+	printf("\n4. Punjab");
+	printf("\n5. Himachal Pradesh");
+	printf("\n6. Uttrakhand");
+	printf("\n7. Sikkim");
+	printf("\n8. Arunachal Pradesh");
+	
+	printf("\n\n STATE NO:");
+	scanf("%d",&s);
+	
+	 if(s==1)
+        {
+        printf("\n\n                                            ::::::RESULTS::::::\n"); 
+        printf("\n[MODEL]				[DATE]			[TIME]			[LOCATION]"); 
+        printf("\n\nDJI Mini 3 Pro		      27/11/2022	        11:36 AM                 2 km away"); 
+        printf("\n\nAutel Nano+		      09/11/2022	        05:36 PM                 608 m away"); 
+        printf("\n\nDJI Air 2S		      11/08/2022	        12:36 AM                 1.6 km away"); 
+        }
+     else if(s==2)
+        {
+        printf("\n\n                                            ::::::RESULTS::::::\n"); 
+        printf("\n[MODEL]				[DATE]			[TIME]			[LOCATION]"); 
+        printf("\n\nSkydio 2 +		      12/07/2022	        04:36 AM                 2.3 km away"); 
+        printf("\n\nAutel EVO Lite+		      09/06/2022	        01:03 PM                 3.2 km away"); 
+        printf("\n\nDJI Mavic 3		      11/03/2022	        05:47 AM                 700 m away"); 
+        }   
+      else if(s==3)
+        {
+        printf("\n\n                                            ::::::RESULTS::::::\n"); 
+        printf("\n[MODEL]				[DATE]			[TIME]			[LOCATION]"); 
+        printf("\n\nAutel Nano+		      21/11/2022	        01:06 AM                 200 m away"); 
+        printf("\n\nDJI Mini 3 Pro		      06/06/2022	        07:30 PM                 800 m away"); 
+        printf("\n\nDJI Air 2S		      08/04/2022	        02:06 AM                 160 m away"); 
+        } 
+	  else if(s==4)
+        {
+        printf("\n\n                                            ::::::RESULTS::::::\n"); 
+        printf("\n[MODEL]				[DATE]			[TIME]			[LOCATION]"); 
+        printf("\n\nDJI Mavic 3		      07/10/2022	        11:33 AM                 2.7 km away"); 
+        printf("\n\nAutel Nano+		      03/01/2022	        06:31 PM                 901 m away"); 
+        printf("\n\nSkydio 2 +		      01/01/2022	        02:16 AM                 1.1 km away"); 
+        } 
+	  else if(s==5)
+        {
+        printf("\n\n                                            ::::::RESULTS::::::\n"); 
+        printf("\n[MODEL]				[DATE]			[TIME]			[LOCATION]"); 
+        printf("\n\nSkydio 2 +		      30/11/2022	        10:35 AM                 555 m away"); 
+        printf("\n\nAutel Nano+		      29/10/2022	        06:51 PM                 608 m away"); 
+        printf("\n\nDJI Mini 3 Pro		      03/04/2022	        09:43 AM                 3 km away"); 
+        } 	
+	  else if(s==6)
+        {
+        printf("\n\n                                            ::::::RESULTS::::::\n"); 
+        printf("\n[MODEL]				[DATE]			[TIME]			[LOCATION]"); 
+        printf("\n\nDJI Avata 30s		      25/07/2022	        10:11 AM                 2 km away"); 
+        printf("\n\nAutel Nano+		      09/04/2022	        05:55 PM                 696 m away"); 
+        printf("\n\nDJI Air 2S		      11/01/2022	        06:33 AM                 1.9 km away"); 
+        } 
+	  else if(s==7)
+        {
+        printf("\n\n                                            ::::::RESULTS::::::\n"); 
+        printf("\n[MODEL]				[DATE]			[TIME]			[LOCATION]"); 
+        printf("\n\nDJI Air 2S		      07/12/2022	        05:36 AM                 11 km away"); 
+        printf("\n\nDJI Avata 30s		      09/10/2022	        05:16 PM                 2.1 km away"); 
+        printf("\n\nSkydio 2 +		      01/08/2022	        07:36 AM                 190 m away"); 
+        } 	
+		
+		   
+        else
+        {
+           
+            printf("\n\nInvalid input , try again by using valid inputs");
+        }
+	
+return 0;
+
+}
+
